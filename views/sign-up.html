@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="U-XA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+    <title>Lyft</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="../assets/images/lyft-icon.png">
+    <link rel="stylesheet" href="../css/sign-up.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!--Contenedor para el head del Sign Up-->
+      <div class="container head col-xs-12 col-sm-12 col-lg-12">
+        <h1>Sign Up</h1>
+        <button type="button" class="preview" name="button"> <a href="../index.html">&#60;</a> </button>
+        <h3>Join now for free credit!</h3>
+      </div>
+      <!--Contenedor para seleccionar tu pais-->
+      <div class="flags row">
+          <div class="col-xs-2 col-xs-offset-1">
+            <div class="btn-group">
+              <button class="btn flagbtn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="http://www.countryflags.io/mx/flat/48.png"><span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><img src="http://www.countryflags.io/co/flat/48.png"></li>
+                <li><img src="http://www.countryflags.io/ca/flat/48.png"></li>
+                <li><img src="http://www.countryflags.io/us/flat/48.png"></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-7 col-xs-offset-1 box-phone">
+            <div class="input-group">
+              <span class="input-group-btn"><button class="btn btn-default nobtn" id="input" type="button">+52</button></span>
+              <input class="form-control input-lg" id="input" type="text" placeholder="10 digitos">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Contenedor para el boton de verificacion-->
+      <div class="container dropdown col-xs-12 col-sm-12 col-lg-12">
+        <h4>We'll send a text to verify your phone</h4>
+      </div>
+      <div class="container next col-xs-12 col-sm-12 col-lg-12">
+        <button type="button" name="button"> <a href="verify.html">NEXT</a> </button>
+      </div>
+    </div>
+  </body>
+</html>

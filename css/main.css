@@ -1,0 +1,83 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Estilos para la vista splash*/
+
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.spl {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, rgb(83,0,96), rgb(230,9,139));
+  background-size: cover;
+}
+
+.spl img {
+  width: 150px;
+  margin-top: 230px;
+}
+
+.spl .fa, .sr-only {
+  color: rgb(255, 255, 255);
+}
+
+/*Estilos para el container de log in*/
+
+.log-in {
+  background-image: url("../assets/images/tokyo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.log-in img {
+  width: 50px;
+  margin-top: 15px;
+}
+
+.log-in .pink {
+  width: 150px;
+  margin-top: 230px;
+}
+
+.log-in .stache {
+  width: 150px;
+  margin-bottom: 80px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+button {
+  padding: 15px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: thin;
+  border-color: rgb(255,255,255);
+  background-color: transparent;
+  color: rgb(255,255,255);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255,255,255);
+}
+
+button:hover {
+  background-color: rgb(255,255,255);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(230,9,139);
+}
